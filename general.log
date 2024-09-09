@@ -1,0 +1,94 @@
+2024-09-07 18:32:38,891 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:32:41,976 (WARNING) - django.request - Not Found: /favicon.ico
+2024-09-07 18:40:21,115 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:22,282 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:40:25,423 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:26,369 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:40:28,300 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:29,240 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:40:38,674 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:39,559 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:40:48,940 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:49,846 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:40:53,639 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:54,543 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:40:56,125 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:40:56,970 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:00,666 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:01,578 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:03,478 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:04,348 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:07,352 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:08,230 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:15,500 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:16,437 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:21,224 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:22,113 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:23,723 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:24,550 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:34,537 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:35,385 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:40,130 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:40,987 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:43,610 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:44,562 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:47,216 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:48,040 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:51,708 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:52,635 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:41:58,507 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:41:59,403 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:01,002 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:01,891 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:04,551 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:05,322 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:15,404 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:16,270 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:22,046 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:23,204 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:25,869 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:26,741 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:35,736 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:36,567 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:40,244 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:41,102 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:42,796 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:43,661 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:45,252 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:46,161 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:52,030 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:52,898 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:42:58,656 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:42:59,567 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:43:01,571 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:43:02,386 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:43:08,560 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:43:09,391 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:43:16,293 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\playground\views.py changed, reloading.
+2024-09-07 18:43:17,150 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 18:43:26,787 (INFO) - playground.views - calling httpbin
+2024-09-07 18:43:30,836 (INFO) - playground.views - received the response
+2024-09-07 19:17:27,255 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\manage.py changed, reloading.
+2024-09-07 19:17:41,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 19:17:42,329 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-07 19:19:22,656 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\storefront\celery.py changed, reloading.
+2024-09-07 19:19:23,844 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 19:19:24,304 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-07 19:19:48,473 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\storefront\wsgi.py changed, reloading.
+2024-09-07 19:19:49,279 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 19:19:49,661 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-07 19:20:38,625 (WARNING) - django.request - Not Found: /store/product/
+2024-09-07 19:21:29,964 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-09-07 19:21:29,975 (WARNING) - django.request - Forbidden: /store/collections/
+2024-09-07 19:21:29,980 (WARNING) - django.request - Bad Request: /store/collections/
+2024-09-07 19:23:23,327 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\storefront\settings\common.py changed, reloading.
+2024-09-07 19:23:24,261 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-07 19:23:24,644 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-07 19:23:40,030 (WARNING) - django.request - Unauthorized: /store/collections/
+2024-09-07 19:23:40,048 (WARNING) - django.request - Forbidden: /store/collections/
+2024-09-07 19:23:40,063 (WARNING) - django.request - Bad Request: /store/collections/
+2024-09-09 17:28:14,470 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-09 17:28:15,056 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-09 17:28:27,288 (WARNING) - django.request - Not Found: /favicon.ico
+2024-09-09 17:29:24,641 (WARNING) - django.request - Not Found: /favicon.ico
+2024-09-09 17:29:32,425 (WARNING) - django.request - Not Found: /favicon.ico
