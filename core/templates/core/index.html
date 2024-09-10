@@ -1,21 +1,3 @@
-{% comment %} {% load static %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="{% static 'core/styles.css' %}">
-</head>
-<body>
-    <div class="home-page">
-        <img src="{% static 'core/logo.svg' %}" alt="Logo" class="logo">
-    </div>
-</body>
-</html> {% endcomment %}
-
-
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -42,16 +24,8 @@
     <main>
         <div class="container">
             <h1>Our Products</h1>
-            <div class="product-grid">
-                {% for product in products %}
-                <div class="product-card">
-                    <img src="{{ product.image.url }}" alt="{{ product.title }}" class="product-image">
-                    <h2 class="product-title">{{ product.title }}</h2>
-                    <p class="product-description">{{ product.description }}</p>
-                    <p class="product-price">${{ product.unit_price }}</p>
-                    <a href="#" class="btn">View Details</a>
-                </div>
-                {% endfor %}
+            <div id="product-grid" class="product-grid">
+                <!-- Products will be dynamically inserted here -->
             </div>
         </div>
     </main>
@@ -60,5 +34,29 @@
             <p>© 2024 E-Commerce Website</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const apiUrl = 'https://enmacode-prod-cc9017823552.herokuapp.com/store/products/';
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const productGrid = document.getElementById('product-grid');
+                    data.results.forEach(product => {
+                        const productCard = document.createElement('div');
+                        productCard.className = 'product-card';
+                        productCard.innerHTML = `
+                            <img src="${product.images[0].url}" alt="${product.title}" class="product-image">
+                            <h2 class="product-title">${product.title}</h2>
+                            <p class="product-description">${product.description}</p>
+                            <p class="product-price">$${product.unit_price}</p>
+                            <a href="#" class="btn">View Details</a>
+                        `;
+                        productGrid.appendChild(productCard);
+                    });
+                })
+                .catch(error => console.error('Error fetching products:', error));
+        });
+    </script>
 </body>
 </html>
