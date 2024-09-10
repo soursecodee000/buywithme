@@ -1,4 +1,4 @@
-{% load static %}
+{% comment %} {% load static %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,5 +12,53 @@
     <div class="home-page">
         <img src="{% static 'core/logo.svg' %}" alt="Logo" class="logo">
     </div>
+</body>
+</html> {% endcomment %}
+
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="{% static 'core/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="{% static 'core/logo.svg' %}" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Orders</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Our Products</h1>
+            <div class="product-grid">
+                {% for product in products %}
+                <div class="product-card">
+                    <img src="{{ product.image.url }}" alt="{{ product.title }}" class="product-image">
+                    <h2 class="product-title">{{ product.title }}</h2>
+                    <p class="product-description">{{ product.description }}</p>
+                    <p class="product-price">${{ product.unit_price }}</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 E-Commerce Website</p>
+        </div>
+    </footer>
 </body>
 </html>
