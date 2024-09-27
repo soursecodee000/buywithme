@@ -29,6 +29,14 @@ class ProductImageInline(admin.TabularInline):
             return format_html(f'<img src="{instance.image.url}" class="thumbnail"/>')
         return ''
 
+class CollectionImageInline(admin.TabularInline):
+    model = models.CollectionImage
+    readonly_fields = ['thumbnail']
+
+    def thumbnail(self,instance):
+        if instance.image.name!='':
+            return format_html(f'<img src="{instance.image.url}" class="thumbnail"/>')
+        return ''
 
 
 @admin.register(models.Product)
@@ -75,6 +83,7 @@ class CollectionAdmin(admin.ModelAdmin):
     autocomplete_fields = ['featured_product']
     list_display = ['title', 'products_count']
     search_fields = ['title']
+    inlines=[CollectionImageInline]
 
     @admin.display(ordering='products_count')
     def products_count(self, collection):
@@ -90,6 +99,10 @@ class CollectionAdmin(admin.ModelAdmin):
         return super().get_queryset(request).annotate(
             products_count=Count('products')
         )
+    class Media:
+      css={
+          'all':['store/styles.css']
+      }
 
 
 @admin.register(models.Customer)

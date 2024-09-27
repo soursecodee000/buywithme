@@ -1,0 +1,43 @@
+{% extends "core/base.html" %}
+
+{% load static %}
+{% block title %}About{% endblock title %}
+
+{% block banner_slider %}
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'core/images/banner/b1.jpg' %}" class="d-block w-100" alt="banner image">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'core/images/banner/b2.jpg' %}" class="d-block w-100" alt="banner image">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'core/images/banner/b3.jpg' %}" class="d-block w-100" alt="banner image">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'core/images/banner/b4.jpg' %}" class="d-block w-100" alt="banner image">
+      </div>
+    </div>
+ </div>
+{% endblock banner_slider %}
+
+{% block main-content %}
+    <div class="container mt-3">
+        <br>
+        <h2 class="text-center">Contact us</h2>
+        <br>
+    </div>
+    <div class="row container">
+        <p class="fs-4 text-center">
+           Address: Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eum quisquam modi illo molestias aspernatur explicabo cumque maxime nobis? Reiciendis molestiae natus minima velit beatae accusantium dolores libero enim quo? 
+        </p>
+        <p class="fs-4 text-center">
+            Contact No.: 03040662260 
+         </p>
+         <p class="fs-4 text-center">
+            Email: ma7744746@gmail.com 
+         </p>
+    </div>
+    <br><br>
+{% endblock main-content %}

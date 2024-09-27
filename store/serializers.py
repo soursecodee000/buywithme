@@ -2,22 +2,33 @@ from decimal import Decimal
 from django.db import transaction
 from rest_framework import serializers
 from .signals import order_created
-from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Collection, ProductImage, Review
+from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Collection, ProductImage, Review,CollectionImage
+
+class CollectionImageSerializer(serializers.ModelSerializer):
+    def create(self, validated_data):
+        collection_id=self.context['collection_id']
+        return CollectionImage.objects.create(collection_id=collection_id, **validated_data)
+    class Meta:
+        model = CollectionImage
+        fields = ['id', 'image']
+
 
 
 class CollectionSerializer(serializers.ModelSerializer):
+    images=CollectionImageSerializer(many=True,read_only=True)
     class Meta:
         model = Collection
-        fields = ['id', 'title', 'products_count']
+        fields = ['id', 'title', 'products_count','images']
 
     products_count = serializers.IntegerField(read_only=True)
+
+
+
 
 class ProductImageSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         product_id=self.context['product_id']
         return ProductImage.objects.create(product_id=product_id,**validated_data)
-
-
 
     class Meta:
         model=ProductImage

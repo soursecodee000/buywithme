@@ -11,9 +11,9 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
 from .filters import ProductFilter
-from .models import Cart, CartItem, Collection, Customer, Order, OrderItem, Product, ProductImage, Review
-from .serializers import AddCartItemSerializer, CartItemSerializer, CartSerializer, CollectionSerializer, CreateOrderSerializer, CustomerSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
-
+from .models import Cart, CartItem, Collection, CollectionImage, Customer, Order, OrderItem, Product, ProductImage, Review
+from .serializers import AddCartItemSerializer, CartItemSerializer, CartSerializer, CollectionSerializer, CreateOrderSerializer, CustomerSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer,CollectionImageSerializer
+from rest_framework import viewsets
 
 class ProductViewSet(ModelViewSet):
     queryset = Product.objects.prefetch_related('images').all()
@@ -36,8 +36,8 @@ class ProductViewSet(ModelViewSet):
 
 
 class CollectionViewSet(ModelViewSet):
-    queryset = Collection.objects.annotate(
-        products_count=Count('products')).all()
+    queryset = Collection.objects.annotate(products_count=Count('products')).prefetch_related('images').all()
+    # queryset = Collection.objects.annotate(products_count=Count('products')).all()
     serializer_class = CollectionSerializer
     permission_classes = [IsAdminOrReadOnly]
 
@@ -46,6 +46,16 @@ class CollectionViewSet(ModelViewSet):
             return Response({'error': 'Collection cannot be deleted because it includes one or more products.'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
 
         return super().destroy(request, *args, **kwargs)
+    
+class CollectionProductsViewSet(viewsets.ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+    def get_queryset(self):
+        collection_id = self.kwargs.get('collection_id')
+        return self.queryset.filter(collection_id=collection_id)
+    
+    
 
 
 class ReviewViewSet(ModelViewSet):
@@ -153,3 +163,15 @@ class ProductImageViewSet(ModelViewSet):
 
     def get_queryset(self):
         return ProductImage.objects.filter(product_id=self.kwargs['product_pk'])
+        
+
+
+class CollectionImageViewSet(ModelViewSet):
+    serializer_class=CollectionImageSerializer
+
+    def get_serializer_context(self):
+        return {'collection_id':self.kwargs['collection_pk']}
+
+    def get_queryset(self):
+        return CollectionImage.objects.filter(collection_id=self.kwargs['collection_pk'])
+

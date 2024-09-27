@@ -1,0 +1,117 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block title %}Address{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+    <div class="row">
+        <h3>Welcome <span class="text-capitalize">{{ request.user }}</span></h3>
+        <div class="row">
+            <div class="col-sm-2 border-end">
+                <ul class="list-unstyled">
+                    <li class="d-grid"><a href="{% url 'profile' %}" class="btn">Profile</a></li>
+                    <li class="d-grid"><a href="{% url 'address' %}" class="btn btn-primary">Address</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8 offset-sm-1">
+                <div class="row">
+                    {% if request.user.is_superuser %}
+                        <!-- Admin users see all customer addresses -->
+                        {% for customer in customers %}
+                            <div class="col-sm-6">
+                                <div class="card m-2">
+                                    <div class="card-body">
+                                        <h3>Address {{ forloop.counter }}</h3>
+                                        <p>Name: {{ customer.name }}</p>
+                                        <p>Locality: {{ customer.locality }}</p>
+                                        <p>Mobile: {{ customer.mobile }}</p>
+                                        <p>City: {{ customer.city }}</p>
+                                        <p>State: {{ customer.state }}</p>
+                                        <p>Zipcode: {{ customer.zipcode }}</p>
+                                        <div class="d-flex">
+                                            <a href="{% url 'profile_with_id' address_id=customer.id %}" class="btn btn-success me-2">Update</a>
+                                            <form action="{% url 'delete_address' address_id=customer.id %}" method="post" style="display:inline;">
+                                                {% csrf_token %}
+                                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this address?');">Delete</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <!-- Regular users see only their own addresses -->
+                        {% for customer in customers %}
+                            <div class="col-sm-6">
+                                <div class="card m-2">
+                                    <div class="card-body">
+                                        <h3>Address {{ forloop.counter }}</h3>
+                                        <p>Name: {{ customer.name }}</p>
+                                        <p>Locality: {{ customer.locality }}</p>
+                                        <p>Mobile: {{ customer.mobile }}</p>
+                                        <p>City: {{ customer.city }}</p>
+                                        <p>State: {{ customer.state }}</p>
+                                        <p>Zipcode: {{ customer.zipcode }}</p>
+                                        <div class="d-flex">
+                                            <a href="{% url 'profile_with_id' address_id=customer.id %}" class="btn btn-success me-2">Update</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}
+
+
+
+{% comment %} {% extends "app/base.html" %}
+{% load static %}
+{% block title %}Address{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+    <div class="row">
+        <h3>Welcome <span class="text-capitalize">{{request.user}}</span></h3>
+        <div class="row">
+            <div class="col-sm-2 border-end">
+                <ul class="list-unstyled">
+                    <li class="d-grid"><a href="{% url 'profile' %}" class="btn">Profile</a></li>
+                    <li class="d-grid"><a href="{% url 'address' %}" class="btn btn-primary">Address</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8 offset-sm-1">
+                <div class="row">
+                    {% for ad in add %}
+                        <div class="col-sm-6">
+                            <div class="card- m-2">
+                                <div class="card-body">
+                                    <h3>Your Registerd Data</h3>
+                                    <p>Name: {{ ad.name }}</p>
+                                    <p>Locality: {{ ad.locality }}</p>
+                                    <p>Mobile: {{ ad.mobile }}</p>
+                                    <p>City: {{ ad.city }}</p>
+                                    <p>State: {{ ad.state }}</p>
+                                    <p>Zipcode: {{ ad.zipcode }}</p>
+                                        <a href="{% url 'profile_with_id' address_id=ad.id %}" class="btn btn-success ms-2">Update</a>
+                                        {% if request.user.is_superuser %}
+                                            <form action="{% url 'delete_address' address_id=ad.id %}" method="post" style="display:inline;">
+                                                {% csrf_token %}
+                                                <button type="submit" class="btn btn-danger btn-primary">Delete</button>
+                                            </form>
+                                        {% endif %}
+                                </div>
+                            </div>
+                        </div>            
+                    {% endfor %}
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %} {% endcomment %}
+
+
+

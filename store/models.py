@@ -25,6 +25,13 @@ class Collection(models.Model):
     class Meta:
         ordering = ['title']
 
+class CollectionImage(models.Model):
+    collection = models.ForeignKey(Collection, on_delete=models.CASCADE, related_name='images')
+    image = models.ImageField(upload_to='store/images',validators=[validate_file_size])
+
+    def __str__(self):
+        return f'Image for {self.collection.title}'
+
 
 class Product(models.Model):
     title = models.CharField(max_length=255)

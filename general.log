@@ -127,3 +127,2085 @@
 2024-09-27 23:45:32,733 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2024-09-27 23:45:33,423 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2024-09-27 23:45:35,472 (WARNING) - django.request - Not Found: /favicon.ico
+2024-09-27 23:52:24,934 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-27 23:52:25,522 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-27 23:53:40,951 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+2024-09-27 23:56:12,734 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-27 23:56:13,246 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:01:25,223 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+2024-09-28 00:02:39,717 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:02:40,738 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:02:41,236 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:02:46,302 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/home.html
+2024-09-28 00:03:32,213 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\templates\core\urls.py changed, reloading.
+2024-09-28 00:03:33,248 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:03:55,072 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\templates\core\urls.py changed, reloading.
+2024-09-28 00:03:55,960 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:04:20,944 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\templates\core\urls.py changed, reloading.
+2024-09-28 00:04:22,786 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:04:23,297 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:05:06,359 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:05:07,353 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:05:07,742 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:05:31,658 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:05:32,502 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:05:32,913 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:05:52,837 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+2024-09-28 00:07:00,240 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category' not found. 'category' is not a valid view function or pattern name.
+2024-09-28 00:08:40,088 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category' not found. 'category' is not a valid view function or pattern name.
+2024-09-28 00:09:23,205 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'profile' not found. 'profile' is not a valid view function or pattern name.
+2024-09-28 00:10:07,395 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'orders' not found. 'orders' is not a valid view function or pattern name.
+2024-09-28 00:11:06,905 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category' not found. 'category' is not a valid view function or pattern name.
+2024-09-28 00:13:59,053 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 111: 'endblock'. Did you forget to register or load this tag?
+2024-09-28 00:17:12,837 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endcomment'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 46: 'endcomment'. Did you forget to register or load this tag?
+2024-09-28 00:17:31,905 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+2024-09-28 00:26:44,744 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:26:46,043 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:26:46,516 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:26:50,142 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:26:51,143 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:26:51,587 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:26:57,292 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:26:58,351 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:26:58,804 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:27:02,474 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:27:03,640 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:27:04,050 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:27:15,029 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:27:15,810 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:27:16,172 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:27:45,146 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:27:45,975 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:27:46,353 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:28:29,002 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+2024-09-28 00:28:43,596 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:28:44,416 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:28:44,777 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:28:49,042 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+2024-09-28 00:29:02,231 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:29:03,249 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:29:03,621 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:29:09,542 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'about' not found. 'about' is not a valid view function or pattern name.
+2024-09-28 00:29:49,895 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:29:50,896 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:29:57,787 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:29:58,584 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:30:07,600 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:30:08,375 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:30:08,763 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:30:34,366 (ERROR) - django.request - Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\core\views.py", line 9, in about_view
+    return render(request, 'core/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: app/base.html
+2024-09-28 00:31:34,561 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:31:35,407 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:31:35,792 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:31:40,500 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:31:41,349 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:31:41,731 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:31:44,389 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:31:45,209 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:31:45,573 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:31:54,365 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:31:55,156 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:31:55,558 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:31:58,160 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:31:59,004 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:31:59,380 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:32:00,836 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:32:01,779 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:32:02,176 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:32:10,502 (ERROR) - django.request - Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\core\views.py", line 12, in about_view
+    return render(request, 'core/cntact.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/cntact.html
+2024-09-28 00:32:20,763 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:32:21,603 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:32:21,996 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:32:27,061 (ERROR) - django.request - Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: app/base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\core\views.py", line 12, in about_view
+    return render(request, 'core/contact.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: app/base.html
+2024-09-28 00:36:16,038 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:36:16,409 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:36:51,075 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:36:51,882 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:37:06,086 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:37:06,965 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:37:07,361 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:42:44,104 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:42:44,880 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:43:33,013 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:43:34,048 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:43:40,959 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:43:41,672 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:43:55,767 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:46:04,421 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:46:05,238 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:46:18,895 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:46:55,661 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:46:56,457 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:46:56,829 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:47:22,952 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:47:23,918 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:47:26,656 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:47:27,441 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:48:01,525 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:48:02,518 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:48:05,306 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:48:06,100 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:48:10,875 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:48:11,649 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:48:17,487 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 00:48:18,294 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:48:18,719 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:48:22,816 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endcomment'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 43: 'endcomment', expected 'endblock'. Did you forget to register or load this tag?
+2024-09-28 00:49:17,166 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'category' not found. 'category' is not a valid view function or pattern name.
+2024-09-28 00:55:33,621 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:55:34,615 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:55:38,466 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:55:39,294 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:55:49,460 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:55:49,844 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:56:34,141 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:56:35,001 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:56:51,336 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 00:56:52,212 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 00:56:52,590 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 00:59:16,565 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:01:11,229 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:02:30,148 (WARNING) - django.request - Not Found: /admin/store/products/
+2024-09-28 01:02:54,499 (WARNING) - django.request - Not Found: /favicon.ico
+2024-09-28 01:13:10,018 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:13:11,092 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:13:11,470 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:21:03,833 (WARNING) - django.request - Not Found: /store/collections/6/products/
+2024-09-28 01:25:41,237 (WARNING) - django.request - Not Found: /store/collections/6/products/
+2024-09-28 01:25:44,516 (WARNING) - django.request - Not Found: /store/collections/6/products/
+2024-09-28 01:25:49,824 (WARNING) - django.request - Not Found: /store/collections/6/products/
+2024-09-28 01:26:40,359 (WARNING) - django.request - Not Found: /store/collections/4/products
+2024-09-28 01:26:46,917 (WARNING) - django.request - Not Found: /store/collections/4/product
+2024-09-28 01:28:10,671 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:28:11,733 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:28:22,962 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:28:23,782 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:28:24,176 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:29:21,193 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:29:22,051 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:29:22,420 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:29:36,668 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:29:37,520 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:29:37,893 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:30:09,682 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 01:30:10,617 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:32:06,418 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 01:32:07,238 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:32:27,826 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 01:32:28,602 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:36:35,320 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:38:00,426 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:38:19,916 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:39:13,255 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:39:56,937 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:40:40,076 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:42:22,954 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:43:05,360 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:43:06,187 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:43:12,002 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:43:12,816 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:43:39,456 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:45:52,069 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:45:52,959 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:46:12,524 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 01:46:13,373 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:49:10,443 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:49:11,364 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:49:34,011 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:49:35,284 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:51:25,639 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:51:50,786 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:51:51,626 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:53:00,965 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\urls.py changed, reloading.
+2024-09-28 01:53:01,987 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:53:27,111 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:54:22,738 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\core\views.py changed, reloading.
+2024-09-28 01:54:23,571 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:54:48,583 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:55:37,661 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 01:55:38,528 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:55:51,985 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 01:55:52,811 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:55:53,260 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:56:25,752 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 01:56:26,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:56:31,581 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 01:56:32,578 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:57:05,980 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 01:57:06,789 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:57:07,202 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 01:58:05,108 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 01:58:05,924 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 01:58:06,316 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:03:54,464 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:03:54,871 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:04:14,913 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 02:04:15,791 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:04:16,202 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:06:52,835 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:06:53,704 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:06:54,126 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:06:55,628 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:06:56,626 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:07:02,980 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:07:03,769 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:07:06,049 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:07:06,788 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:07:11,108 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:07:11,944 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:07:12,332 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:07:35,485 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:08:25,421 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:08:26,334 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:08:26,713 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:08:29,226 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:08:30,010 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:08:30,378 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:08:36,077 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:08:36,974 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:08:37,367 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:08:44,053 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:08:44,823 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:08:45,177 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:08:47,721 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:08:48,549 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:08:48,916 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:09:01,955 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:09:02,747 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:09:03,166 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:09:14,213 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:09:15,126 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:09:15,508 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:09:27,606 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:09:28,393 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:09:28,861 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:09:30,357 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:09:31,194 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:09:31,551 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:09:37,253 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:09:38,058 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:09:38,424 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:09:55,713 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:09:57,057 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:09:57,511 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:10:02,294 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:10:03,196 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:10:03,576 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:10:27,261 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:10:28,093 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:10:28,479 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:10:47,794 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:10:48,729 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:10:49,206 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:10:52,757 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:10:53,617 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:10:53,985 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:11:06,043 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:11:06,811 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:11:07,246 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:11:08,786 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:11:09,532 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:11:09,907 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:11:17,637 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:11:18,403 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:11:18,773 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:11:34,299 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:11:46,770 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:13:51,609 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:13:52,463 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:13:52,885 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:13:57,575 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:13:58,473 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:13:58,911 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:14:07,726 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:14:08,538 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:14:09,032 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:15:04,566 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:15:05,397 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:15:05,830 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:15:08,444 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:15:09,324 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:15:10,836 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:15:11,722 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:15:16,401 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:15:17,255 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:15:17,625 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:16:05,385 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:16:06,482 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:16:07,105 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:16:09,817 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:16:10,773 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:16:11,142 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:16:13,682 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:16:14,526 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:16:14,896 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:16:43,467 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:16:46,942 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:18:08,666 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:18:09,690 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:18:10,267 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:18:13,067 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:18:14,073 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:18:14,427 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:19:07,605 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 02:19:08,564 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:19:46,958 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:20:19,130 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:20:40,463 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:20:40,816 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:25:56,022 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:26:00,191 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:26:13,177 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:26:13,538 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:28:15,882 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:28:17,012 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:28:17,672 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:28:19,282 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:28:20,188 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:28:20,583 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:28:23,087 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:28:24,033 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:28:24,414 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:32:19,026 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 02:32:20,092 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:32:20,503 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:33:21,601 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:33:22,457 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:33:22,899 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:33:41,640 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:33:42,555 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:33:43,008 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:33:51,920 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:33:52,773 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:33:53,145 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:33:55,794 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:33:56,587 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:33:56,961 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:34:56,509 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:34:57,428 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:34:57,851 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:35:41,474 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:35:42,286 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:35:42,696 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:37:22,245 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:37:27,005 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:37:32,013 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:37:32,382 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:43:27,758 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:43:28,667 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:43:29,116 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:43:59,179 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:44:00,115 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:44:01,853 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:44:02,809 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:44:03,211 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:44:07,134 (ERROR) - django.request - Internal Server Error: /store/collections/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 795, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 714, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 1054, in get_fields
+    assert hasattr(self, 'Meta'), (
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Class CollectionImageSerializer missing "Meta" attribute
+2024-09-28 02:44:50,800 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:44:51,830 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:44:52,554 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:45:13,205 (ERROR) - django.request - Internal Server Error: /store/collections/2/images/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\store\serializers.py", line 13, in create
+    collection_id = self.context['collection_id']
+                    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'collection_id'
+2024-09-28 02:45:54,187 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:45:55,344 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:45:55,779 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:46:11,400 (ERROR) - django.request - Internal Server Error: /store/collections/2/images/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\store\serializers.py", line 13, in create
+    collection_id = self.context['collection_id']  # Should work now
+                    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'collection_id'
+2024-09-28 02:46:15,406 (ERROR) - django.request - Internal Server Error: /store/collections/2/images/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\store\serializers.py", line 13, in create
+    collection_id = self.context['collection_id']  # Should work now
+                    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'collection_id'
+2024-09-28 02:46:27,055 (ERROR) - django.request - Internal Server Error: /store/collections/2/images/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\store\serializers.py", line 13, in create
+    collection_id = self.context['collection_id']  # Should work now
+                    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'collection_id'
+2024-09-28 02:47:56,714 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:47:57,964 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:47:58,644 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:48:39,234 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:48:40,443 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:48:41,015 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:48:44,571 (ERROR) - django.request - Internal Server Error: /store/collections/2/images/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1048, "Column 'collection_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\store\serializers.py", line 22, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1048, "Column 'collection_id' cannot be null")
+2024-09-28 02:49:00,511 (ERROR) - django.request - Internal Server Error: /store/collections/2/images/
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1048, "Column 'collection_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\store\serializers.py", line 22, in create
+    return super().create(validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\rest_framework\serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\AHMAD\Desktop\storefront3\venv\Lib\site-packages\MySQLdb\connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1048, "Column 'collection_id' cannot be null")
+2024-09-28 02:49:44,416 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:49:45,492 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:49:46,034 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:49:59,370 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 02:50:00,403 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:50:13,936 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\urls.py changed, reloading.
+2024-09-28 02:50:14,996 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:50:15,412 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:50:42,771 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:50:43,939 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:50:44,452 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:53:20,125 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 02:53:21,234 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:53:21,729 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:53:42,748 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 02:53:43,928 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:53:44,488 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:56:30,208 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 02:56:31,319 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:56:31,782 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:56:41,856 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 02:56:42,899 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:56:43,305 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 02:56:49,068 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 02:56:50,078 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:57:30,009 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 02:57:30,394 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:01:48,491 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:01:50,097 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:02:02,266 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:02:03,125 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:02:03,600 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:03:25,614 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:03:26,721 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:03:27,172 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:03:39,374 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:03:40,301 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:03:40,713 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:03:50,468 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:03:54,812 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:04:03,586 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:04:03,962 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:05:53,583 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:05:53,589 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:05:54,870 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:05:54,870 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:05:55,508 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:05:55,513 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:05,622 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:06,133 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:06,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:07,213 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:07,280 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:07,653 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:25,790 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:26,054 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:26,770 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:27,051 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:27,264 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:27,463 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:35,377 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:36,249 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:36,392 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:36,854 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:37,313 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:37,762 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:39,243 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:39,436 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:40,292 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:40,426 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:40,833 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:40,997 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:43,460 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:43,589 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:44,531 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:44,649 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:45,057 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:45,118 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:48,736 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:48,758 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:08:49,822 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:49,855 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:08:50,364 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:08:50,367 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:09:19,705 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:09:19,727 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:09:20,830 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:09:21,375 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:09:21,378 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:08,925 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:08,928 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:09,989 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:09,990 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:10,605 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:10,607 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:27,221 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:27,229 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:28,282 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:28,340 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:28,868 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:28,969 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:33,660 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:33,707 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:35,160 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:35,160 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:35,704 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:35,706 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:37,352 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:37,371 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:38,394 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:38,481 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:39,021 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:39,037 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:43,891 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:43,895 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:45,228 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:45,254 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:45,797 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:45,798 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:53,837 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:53,855 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:55,095 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:55,101 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:55,724 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:55,725 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:57,318 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:57,338 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:10:58,454 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:58,454 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:10:59,026 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:10:59,033 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:05,975 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:11:06,027 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:11:07,128 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:07,164 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:07,600 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:07,656 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:13,528 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:11:13,536 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:11:14,609 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:14,609 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:15,131 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:15,131 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:22,157 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:11:22,157 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:11:23,177 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:23,178 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:23,756 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:23,757 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:55,301 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:11:55,314 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:11:56,457 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:56,458 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:57,060 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:57,077 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:11:58,637 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:11:58,682 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:11:59,712 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:11:59,714 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:12:00,225 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:12:00,226 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:14:41,404 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:14:55,020 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:15:03,636 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:15:04,016 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:17:47,274 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:17:48,271 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:17:48,738 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:17:50,226 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:17:51,042 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:17:51,433 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:18:53,408 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:18:54,263 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:18:54,723 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:19:06,874 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:19:07,737 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:19:11,450 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:19:12,212 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:19:12,595 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:19:15,104 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:19:15,918 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:19:16,372 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:19:19,979 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\views.py changed, reloading.
+2024-09-28 03:19:20,740 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:19:21,198 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:20:41,172 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:20:42,230 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:20:42,832 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:20:45,432 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:20:46,408 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:20:46,865 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:20:53,670 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:20:54,737 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:20:55,240 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:00,055 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:00,998 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:01,444 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:02,981 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:03,960 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:04,485 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:07,093 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:08,067 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:09,745 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:10,550 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:10,928 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:14,505 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:15,611 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:24,475 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:25,274 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:25,659 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:34,624 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:35,401 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:45,489 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:46,348 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:46,876 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:49,504 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:50,248 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:50,617 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:53,259 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:54,216 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:54,591 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:21:57,122 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:21:58,133 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:21:58,656 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:01,289 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:02,299 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:02,738 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:06,360 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:07,239 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:07,702 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:09,230 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:10,226 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:10,669 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:12,271 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:13,196 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:13,671 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:15,169 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:16,093 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:22,987 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:24,104 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:24,562 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:31,489 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:32,307 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:32,738 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:22:34,309 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:35,421 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:38,132 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:22:38,876 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:22:39,255 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:23:14,806 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:23:15,643 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:23:20,634 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\serializers.py changed, reloading.
+2024-09-28 03:23:21,648 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:23:22,035 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:26:37,563 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:26:38,437 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:26:38,957 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:26:40,539 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:26:41,424 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:26:44,809 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:26:45,569 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:26:47,857 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:26:48,626 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:26:58,135 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\models.py changed, reloading.
+2024-09-28 03:26:58,991 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:26:59,354 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:30:43,739 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:30:44,690 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:30:45,099 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:30:47,675 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:30:48,642 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:33:29,363 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:33:29,773 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:36:10,718 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:36:11,544 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:36:11,915 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-28 03:38:40,672 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\store\admin.py changed, reloading.
+2024-09-28 03:38:41,604 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-28 03:38:42,027 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
