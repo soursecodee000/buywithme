@@ -124,3 +124,6 @@
 2024-09-09 21:35:19,218 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2024-09-19 17:33:46,052 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2024-09-19 17:33:46,631 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-27 23:45:32,733 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-27 23:45:33,423 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-27 23:45:35,472 (WARNING) - django.request - Not Found: /favicon.ico
