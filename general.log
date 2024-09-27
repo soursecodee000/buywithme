@@ -122,3 +122,5 @@
 2024-09-09 21:35:17,709 (INFO) - django.utils.autoreload - C:\Users\AHMAD\Desktop\storefront3\storefront\settings\dev.py changed, reloading.
 2024-09-09 21:35:18,832 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2024-09-09 21:35:19,218 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2024-09-19 17:33:46,052 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-09-19 17:33:46,631 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
